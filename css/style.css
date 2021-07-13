@@ -16,17 +16,62 @@ main{
     background-color: #FFFFFF;
     width: 870px;
     border-radius: 5px;
-    padding: 30px 30px 0 30px;
+    padding: 30px;
 }
 .section-title{
     color: #562EFF;
     font-size: 24px;
     font-weight: 500;
     margin-top: 0;
-    margin-bottom: 40px;
+    margin-bottom: 25px;
+}
+#decrease-gap{
+    padding-top: 0;
+}
+/* header styles */
+header{
+    background-color: #562EFF;
+    display: flex;
+    justify-content: center;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 920px;   
+}
+.left-div{
+    display: flex;
+    align-items: center;
+   
+}
+.left-div p{
+    color: #FFFFFF;
+    margin-left: 15px;
+    font-size: 24px;
+    font-weight: 500;
+}
+.logo img{
+    width: 41px;
+    height: 51px;
+}
+.right-div{
+    display: flex;
+    align-items: center;
+}
+.menu a{
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-right: 36px;
+    font-size: 16px;
+}
+.image img{
+    width: 51px;
+    height: 51px;
 }
 /* top player style */
-
+.top-player{
+    margin-top: 36px;
+}
 .players{
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -81,3 +126,55 @@ hr{
     color: #562EFF;
     text-decoration: none;
 }
+/* Courses style */
+.latest-blog{
+    margin: 28px 0;
+}
+.courses{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 25px;
+}
+.course{
+    padding: 13px;
+    box-shadow: 0px 5.34229px 13.3557px rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+}
+.course .thumbnail{
+    text-align: center;
+}
+.course img{
+    width: 242px;
+    height: 104px;  
+}
+.course-title{
+    font-size: 20px;
+    font-weight: 500;
+}
+.course-author{
+    color: #ED6B4F;
+    font-size: 14px;
+    font-weight: 400;
+}
+.course-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.fa-star,span{
+    font-size: 12px;
+}
+.fa-star.filled{
+    color: #FFC014;
+}
+.fa-star.empty,span{
+    color: #AEAEAE;
+}
+.course-duration{
+    color: #ED6B4F;
+    background-color: #FEE5DF;
+    padding: 3px 6px;
+    border-radius: 30px;
+}
+
+
